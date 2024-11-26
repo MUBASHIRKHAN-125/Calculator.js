@@ -1,0 +1,178 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.head{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color:white;
+    text-decoration-thickness: 3px;
+    font-size: 25px;
+    background-color: red;
+    height: 50px;
+    border-radius: 6px;
+}
+.head .heading{
+    padding-top: 9px;
+}
+label{
+    color: white;
+}
+#containernumber{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: #5e5762;
+}
+.pos{
+    padding-left: 46px;
+}
+.pos button{
+    width: 155px;
+    height: 33px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    border:2px solid skyblue;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.pos button:hover{
+    transform: scale(1.2);
+}
+.but{
+    padding-left: 46px;
+}
+.but button{
+    width: 155px;
+    height: 33px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    border:2px solid skyblue;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.but button:hover{
+    transform: scale(1.2);
+}
+.mul{
+    padding-left: 46px;
+}
+.mul button{
+    width: 155px;
+    height: 33px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    border:2px solid skyblue;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.mul button:hover{
+    transform: scale(1.2);
+}
+.divi{
+    padding-left: 46px;
+}
+.divi button{
+    width: 155px;
+    height: 33px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    border:2px solid skyblue;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.divi button:hover{
+    transform: scale(1.2);
+}
+.inp{
+    padding-top: 48px;
+}
+.inp input
+{
+    width: 254px;
+    height: 20px;
+}
+.inp1 input{
+    width: 254px;
+    height: 20px;
+}
+.maincontainerall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid #228b77;
+    width: 738px;
+    height: 497px;
+    margin-left: 240px;
+    margin-top: 30px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+.maincontainerall:hover{
+    background-color:  #34093f;  
+}
+input::placeholder {
+    color: darkgray;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+  }
+@media (max-width:390px) {
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .maincontainerall {
+        margin-left: 0px;
+        width: 367px;
+        height: 460px;
+    }
+    .inp{
+        padding-left: 48px;
+    }
+    .inp1{
+        padding-left: 48px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .heading {
+        padding-top: 11px;
+        font-size: 18px;
+    }
+    .head{
+        height: 44px;
+    }
+    .inp {
+        padding-top: 24px;
+    }
+    .pos {
+        padding-left: 29px;
+    }
+    .but{
+     padding-left: 29px;
+    }
+    .mul{
+        padding-left: 29px;
+    }
+    .divi{
+        padding-left: 29px;
+    }
+}
