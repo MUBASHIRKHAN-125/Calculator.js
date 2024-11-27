@@ -27,10 +27,8 @@ label{
     text-decoration: underline;
     text-decoration-color: #5e5762;
 }
-.pos{
-    padding-left: 46px;
-}
 .pos button{
+    border-radius: 8px;
     width: 155px;
     height: 33px;
     font-size: 16px;
@@ -44,11 +42,10 @@ label{
 }
 .pos button:hover{
     transform: scale(1.2);
-}
-.but{
-    padding-left: 46px;
+    box-shadow: 1px 5px 6px pink;
 }
 .but button{
+    border-radius: 8px;
     width: 155px;
     height: 33px;
     font-size: 16px;
@@ -62,11 +59,10 @@ label{
 }
 .but button:hover{
     transform: scale(1.2);
-}
-.mul{
-    padding-left: 46px;
+    box-shadow: 1px 5px 6px pink;
 }
 .mul button{
+    border-radius: 8px;
     width: 155px;
     height: 33px;
     font-size: 16px;
@@ -80,11 +76,10 @@ label{
 }
 .mul button:hover{
     transform: scale(1.2);
-}
-.divi{
-    padding-left: 46px;
+    box-shadow: 1px 5px 6px pink;
 }
 .divi button{
+    border-radius: 8px;
     width: 155px;
     height: 33px;
     font-size: 16px;
@@ -98,6 +93,7 @@ label{
 }
 .divi button:hover{
     transform: scale(1.2);
+    box-shadow: 1px 5px 6px pink;
 }
 .inp{
     padding-top: 48px;
@@ -111,6 +107,10 @@ label{
     width: 254px;
     height: 20px;
 }
+.javascript{
+    display: flex;
+    justify-content: center;
+}
 .maincontainerall{
     display: flex;
     flex-direction: column;
@@ -118,8 +118,6 @@ label{
     border: 10px solid #228b77;
     width: 738px;
     height: 497px;
-    margin-left: 240px;
-    margin-top: 30px;
     transition-property: all;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -135,44 +133,40 @@ input::placeholder {
     text-align: center;
   }
 @media (max-width:390px) {
-    body{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .maincontainerall {
-        margin-left: 0px;
-        width: 367px;
-        height: 460px;
-    }
-    .inp{
-        padding-left: 48px;
-    }
-    .inp1{
-        padding-left: 48px;
-    }
-    label{
-        font-size: 20px;
-    }
-    .heading {
-        padding-top: 11px;
-        font-size: 18px;
-    }
-    .head{
-        height: 44px;
-    }
-    .inp {
-        padding-top: 24px;
-    }
-    .pos {
-        padding-left: 29px;
-    }
-    .but{
-     padding-left: 29px;
-    }
-    .mul{
-        padding-left: 29px;
-    }
-    .divi{
-        padding-left: 29px;
-    }
+ body{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .heading{
+    font-size: 17px;
+ }
+ .head{
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 8px 10px;
+ }
+ .inp {
+    padding-left: 13px;
+}
+.inp1 {
+    padding-left: 13px;
+}
+.maincontainerall{
+    height: 520px;
+}
+}
+.res button{
+    width: 126px;
+    height: 34px;
+    border-radius: 15px;
+    background: transparent;
+    color: white;
+    border: 2px solid #036418;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+.res button:hover{
+    transform: scale(1.1);
 }

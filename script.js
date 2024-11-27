@@ -22,9 +22,9 @@ let Sum = Number (document.getElementById("Sum").value)
 let Minus = Number (document.getElementById("Minus").value)
 document.getElementById("containernumber").innerText = Sum / Minus;
 }
-// function reset()
-// {
-// let Sum = Number (document.getElementById("Sum").value)
-// let Minus = Number (document.getElementById("Minus").value)
-// document.getElementById("containernumber").innerText = Sum reset Minus;
-// }
+function reset()
+{
+         (document.getElementById("Sum").value) = " ";
+        (document.getElementById("Minus").value) = " ";
+        document.getElementById("containernumber").innerText = " ";
+}
