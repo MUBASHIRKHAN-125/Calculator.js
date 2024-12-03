@@ -20,6 +20,7 @@ body{
 }
 label{
     color: white;
+    font-size: 24px;
 }
 #containernumber{
     color: white;
@@ -34,6 +35,7 @@ label{
     font-size: 16px;
     background-color: transparent;
     color: white;
+    cursor: pointer;
     border:2px solid skyblue;
     transition-property: all;
     transition-duration: 0.3s;
@@ -49,6 +51,7 @@ label{
     width: 155px;
     height: 33px;
     font-size: 16px;
+    cursor: pointer;
     background-color: transparent;
     color: white;
     border:2px solid skyblue;
@@ -66,6 +69,7 @@ label{
     width: 155px;
     height: 33px;
     font-size: 16px;
+    cursor: pointer;
     background-color: transparent;
     color: white;
     border:2px solid skyblue;
@@ -83,6 +87,7 @@ label{
     width: 155px;
     height: 33px;
     font-size: 16px;
+    cursor: pointer;
     background-color: transparent;
     color: white;
     border:2px solid skyblue;
@@ -152,7 +157,7 @@ input::placeholder {
     padding-left: 13px;
 }
 .maincontainerall{
-    height: 520px;
+    height: 545px;
 }
 }
 .res button{
@@ -169,4 +174,5 @@ input::placeholder {
 }
 .res button:hover{
     transform: scale(1.1);
+    border: 3px solid rgb(129, 34, 34);
 }
